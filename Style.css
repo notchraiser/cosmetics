@@ -1,6 +1,61 @@
-p{
-    width: 50%;
-    padding: 30px;
-    margin: 20px;
-    border: 2px solid #000;
+body{
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+.services {
+    background: #fff;  
+}
+.services:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.service {
+    background: #AAE;
+    float: left;
+    width: 29.33%;
+    height: 140px;
+    padding: 1%;
+    margin: 1%;
+}
+.service h2, .service p {
+    color: #999;
+    text-align: center;
+    margin: 10px 0;    
+}
+.content{
+    margin: 20px 1%;
+    padding: 10px;
+    clear: left;
+}
+.content p{
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+    text-align: justify;
+}
+section, aside {
+    float: left;
+    width: 46%;
+    height: 700px;
+    padding: 1%;
+    margin: 1%; 
+    text-align: justify;
+    line-height: 1.2em;
+    background: #f2f2f2;
+}
+.columns {
+    clear: both;
+    display: block;
+    content: "";
 }
